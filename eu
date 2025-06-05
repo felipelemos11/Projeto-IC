@@ -1,0 +1,3 @@
+git add .
+git commit -m "Adiciona imagens animalquest1 e animalquest2 em .jpeg na pasta images"
+git push origin main
