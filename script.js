@@ -15,8 +15,3 @@ document.addEventListener("DOMContentLoaded", () => {
     localStorage.setItem("tema", body.classList.contains("light-mode") ? "claro" : "escuro");
   });
 });
-
-function mostrarImagens() {
-  const galeria = document.getElementById("galeria");
-  galeria.style.display = galeria.style.display === "none" ? "block" : "none";
-}
