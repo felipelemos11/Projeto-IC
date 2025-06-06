@@ -40,3 +40,27 @@ main {
 a {
   color: #014421; 
 }
+
+body.dark-mode {
+  background-color: #000000;
+  color: #014421; 
+}
+
+body.dark-mode header {
+  background-color: #014421;
+  color: #000000;
+}
+
+body.dark-mode footer {
+  background-color: #000000;
+  color: #014421;
+}
+
+body.dark-mode nav a {
+  color: #000000;
+}
+
+body.dark-mode a {
+  color: #014421;
+}
+
