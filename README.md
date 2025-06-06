@@ -38,9 +38,6 @@ Tema Escuro: fundo preto com texto em verde escuro
 
 Essa funcionalidade torna a navegação mais agradável e personalizável, ajudando a reduzir o cansaço visual.
 
-### 📱 Responsividade
-O site utiliza boas práticas de CSS para manter a leitura agradável em diferentes tamanhos de tela.
-
 ## ✨ Galeria do Projeto
 
 ![Animal Quest Mostra Tech](animalquest1.jpeg)
