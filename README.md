@@ -26,6 +26,17 @@ function mostrarMensagem() {
   alert("Agradeço pela visita ao meu portfólio! Caso queira saber mais, é só me contatar.");
 }
 ```
+🔄 Troca de Temas
+O site possui um botão chamado "Trocar tema", que permite alternar entre o tema claro e o tema escuro.
+Quando o botão é clicado, um script em JavaScript adiciona ou remove uma classe chamada dark-mode no elemento <body> da página.
+
+Essa classe muda as cores de fundo e do texto, deixando a visualização mais confortável para diferentes ambientes ou preferências, alternando entre:
+
+Tema Claro: fundo branco com texto verde escuro
+
+Tema Escuro: fundo preto com texto em verde escuro
+
+Essa funcionalidade torna a navegação mais agradável e personalizável, ajudando a reduzir o cansaço visual.
 
 ### 📱 Responsividade
 O site utiliza boas práticas de CSS para manter a leitura agradável em diferentes tamanhos de tela.
