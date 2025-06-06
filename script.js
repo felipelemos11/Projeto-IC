@@ -6,12 +6,15 @@ document.addEventListener("DOMContentLoaded", () => {
   const botaoTema = document.getElementById("toggle-tema");
   const body = document.body;
 
-  if (localStorage.getItem("tema") === "claro") {
-    body.classList.add("light-mode");
+  
+  const temaSalvo = localStorage.getItem("tema");
+  if (temaSalvo === "escuro") {
+    body.classList.add("dark-mode");
   }
 
   botaoTema?.addEventListener("click", () => {
-    body.classList.toggle("light-mode");
-    localStorage.setItem("tema", body.classList.contains("light-mode") ? "claro" : "escuro");
+    body.classList.toggle("dark-mode");
+    const temaAtual = body.classList.contains("dark-mode") ? "escuro" : "claro";
+    localStorage.setItem("tema", temaAtual);
   });
 });
